@@ -4,12 +4,17 @@ gem 'rails', '3.2.1'
 
 gem 'slim'
 
+group :development, :test do
+  gem 'sqlite3-ruby', :require => 'sqlite3'
+  gem 'sqlite3'
+  gem 'pry'
+  gem 'pry-nav'
+end
+
 group :production do
  gem 'pg'
 end
-group :development, :test do
-  gem 'sqlite3'
-end
+
 
 gem 'truestack_rails', :git => "git@github.com:caryfitzhugh/truestack_rails.git"
 gem 'truestack_client', :git => "git@github.com:caryfitzhugh/truestack_client.git"
@@ -27,18 +32,3 @@ group :assets do
 end
 
 gem 'jquery-rails'
-
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
-
-# To use Jbuilder templates for JSON
-# gem 'jbuilder'
-
-# Use unicorn as the web server
-# gem 'unicorn'
-
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'ruby-debug19', :require => 'ruby-debug'
