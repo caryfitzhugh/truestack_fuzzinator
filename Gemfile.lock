@@ -6,9 +6,9 @@ GIT
 
 GIT
   remote: git@github.com:caryfitzhugh/truestack_rails.git
-  revision: 368b2de9effe19237a4966b9277559514aa3ac94
+  revision: 64315c3bb9a700b0cc391619600a6f7713bd53c3
   specs:
-    truestack_rails (0.0.84)
+    truestack_rails (0.0.85)
 
 GEM
   remote: https://rubygems.org/
