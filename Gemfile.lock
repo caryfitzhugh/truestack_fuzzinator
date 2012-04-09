@@ -1,14 +1,14 @@
 GIT
   remote: git@github.com:caryfitzhugh/truestack_client.git
-  revision: 8a52f86c2c987ec46a3362c15d75935b7eb2d868
+  revision: 783d5758210f87134b559e8ac9ce1b8cf2f363b2
   specs:
-    truestack_client (0.0.23)
+    truestack_client (0.0.24)
 
 GIT
   remote: git@github.com:caryfitzhugh/truestack_rails.git
-  revision: 64315c3bb9a700b0cc391619600a6f7713bd53c3
+  revision: 0a22eeaed8920ecff14578b81b525fdd11620746
   specs:
-    truestack_rails (0.0.85)
+    truestack_rails (0.0.86)
 
 GEM
   remote: https://rubygems.org/
