@@ -1,7 +1,9 @@
 ---
 host: http://truestack.herokuapp.com
 key: b28a7b99b4bc1f79c8b4
-code:
+code_paths:
   - app
   - lib
   - config
+environments:
+  - production

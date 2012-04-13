@@ -14,4 +14,10 @@ class FuzzController < ApplicationController
   def action2
     Dummy.model_action2
   end
+
+  def action3
+    CalledModule.called_module_method
+    cl = CalledClass.create_called_class
+    cl.call_called_class
+  end
 end
