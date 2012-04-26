@@ -6,9 +6,9 @@ GIT
 
 GIT
   remote: git@github.com:caryfitzhugh/truestack_rails.git
-  revision: ac1299e2ac959bb80fb06f5a377e4603a75d1155
+  revision: 954a75fa86ada20357ee5bde089b4ad8c1170b7d
   specs:
-    truestack_rails (0.0.145)
+    truestack_rails (0.0.147)
       grit
       momentarily (~> 0.0.3)
       sys-host (~> 0.6.2)

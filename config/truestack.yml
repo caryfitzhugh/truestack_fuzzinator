@@ -9,3 +9,4 @@ code_paths:
 environments:
   - production
   - development
+logger_path: STDOUT
