@@ -1,8 +1,8 @@
 GIT
   remote: git@github.com:caryfitzhugh/truestack_client.git
-  revision: 5eb9ab5672bd677e7438a60ee80c599b4647943d
+  revision: 465321b9477c2fd3d1af0f038bd32293d984e5eb
   specs:
-    truestack_client (0.0.30)
+    truestack_client (0.0.32)
 
 GIT
   remote: git@github.com:caryfitzhugh/truestack_rails.git
@@ -84,7 +84,7 @@ GEM
     pg (0.13.2)
     polyglot (0.3.3)
     posix-spawn (0.3.6)
-    pry (0.9.9.3)
+    pry (0.9.9.4)
       coderay (~> 1.0.5)
       method_source (~> 0.7.1)
       slop (>= 2.4.4, < 3)
