@@ -1,6 +1,4 @@
 class FuzzController < ApplicationController
-  before_filter :add_a_metric
-
   def index
     sleep rand(10)
   end
@@ -27,10 +25,5 @@ class FuzzController < ApplicationController
     truestack_method("in_action3") do
       cl.call_called_class
     end
-  end
-
-  private
-  def add_a_metric
-    TruestackRails.metric('requests', 1, :random_data => SecureRandom.hex(4))
   end
 end
