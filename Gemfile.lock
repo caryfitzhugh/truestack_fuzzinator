@@ -1,14 +1,14 @@
 GIT
   remote: git@github.com:caryfitzhugh/truestack_client.git
-  revision: c6cea4870abea11d21628bc82550b87cd6da89e6
+  revision: a5fa4057b9279d2af8d6b1d8cec58863c3796cdd
   specs:
-    truestack_client (0.0.45)
+    truestack_client (0.0.49)
 
 GIT
   remote: git@github.com:caryfitzhugh/truestack_rails.git
-  revision: 4f46fe7fc67e2dd93db4534d8e8c8471cdcdce3b
+  revision: 9b6b8c85d767382013482caf88a970e777ca1e21
   specs:
-    truestack_rails (0.0.186)
+    truestack_rails (0.0.188)
       grit
       momentarily (~> 0.0.3)
       sys-host (~> 0.6.2)
