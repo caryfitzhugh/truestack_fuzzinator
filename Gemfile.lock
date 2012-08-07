@@ -1,11 +1,11 @@
 GIT
-  remote: git@github.com:caryfitzhugh/truestack_client.git
+  remote: git://github.com/caryfitzhugh/truestack_client.git
   revision: 0238fb7d8637a70c9743223d0529031fee46c690
   specs:
     truestack_client (0.0.50)
 
 GIT
-  remote: git@github.com:caryfitzhugh/truestack_rails.git
+  remote: git://github.com/caryfitzhugh/truestack_rails.git
   revision: d03c5e5dff1efd6d23bb1f6e4e350561c471a618
   specs:
     truestack_rails (0.0.193)
