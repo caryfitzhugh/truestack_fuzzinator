@@ -5,7 +5,6 @@ gem 'rails', '3.2.1'
 gem 'slim'
 
 group :development, :test do
-  gem 'sqlite3-ruby', :require => 'sqlite3'
   gem 'sqlite3'
   gem 'pry'
   gem 'pry-nav'
@@ -17,7 +16,6 @@ end
 
 
 gem 'truestack_rails',  :git => "git://github.com/caryfitzhugh/truestack_rails.git"
-
 gem 'truestack_client', :git => "git://github.com/caryfitzhugh/truestack_client.git"
 
 # Gems used only for assets and not required
